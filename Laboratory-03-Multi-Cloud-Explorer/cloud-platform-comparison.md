@@ -37,7 +37,11 @@ I would personally choose **AWS** due to its overwhelming market dominance and w
 
 
 
-# ☁️ Cloud Service Equivalency Matrix  - Checkpoint 5 – Match the Cloud Services
+
+
+# Checkpoint 5 – Match the Cloud Services
+
+# ☁️ Cloud Service Equivalency Matrix  
 
 A quick-reference architectural mapping of core infrastructure services across Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
 

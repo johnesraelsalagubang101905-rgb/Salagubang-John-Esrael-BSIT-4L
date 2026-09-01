@@ -61,3 +61,33 @@ AWS is the industry leader for global e-commerce enterprise infrastructure due t
 * **Amazon CloudFront:** A global Content Delivery Network (CDN) that caches product imagery, media files, and static assets close to international shoppers for fast page loads.
 * **Amazon DynamoDB:** A fully managed, multi-region NoSQL database that offers single-digit millisecond performance at any scale to support dynamic product catalogs and shopping carts.
 * **Elastic Load Balancing (ELB) & Auto Scaling:** Automatically monitors web traffic and scales EC2 capacity up or down dynamically to prevent site crashes during unpredictable traffic spikes.
+
+
+
+
+
+
+
+
+# Checkpoint 6: Multi-Cloud Decision Matrix
+
+---
+
+## 📊 Business Requirement Decision Matrix
+
+| Business Requirement | Recommended Platform | Justification |
+| :--- | :--- | :--- |
+| **Startup Company** | 🟧 **AWS** | Offers a mature serverless ecosystem (AWS Amplify, Lambda) that minimizes upfront capital expenditure, combined with generous startup credit programs (AWS Activate) for fast MVP deployment. |
+| **Enterprise Organization** | 🟧 **AWS** | Features the largest global infrastructure footprint, deepest service catalog (200+ services), highest compliance certifications, and the most expansive partner ecosystem in the market. |
+| **Microsoft Environment** | 🟦 **Azure** | Delivers native, out-of-the-box integration with Windows Server, Active Directory, and Office 365, allowing companies to reuse software licenses via Azure Hybrid Benefit for massive cost savings. |
+| **AI / Machine Learning** | 🟥 **GCP** | Provides industry-leading AI infrastructure (Vertex AI), custom TPU hardware acceleration, and advanced serverless data analytics (BigQuery) built on decades of Google AI research. |
+| **Kubernetes Deployment** | 🟥 **GCP** | Google originally created Kubernetes; **Google Kubernetes Engine (GKE)** remains the premier, most mature managed container environment with seamless auto-scaling and minimal operational overhead. |
+| **Global Web Application** | 🟧 **AWS** | Leverages a massive network of global Availability Zones, Elastic Load Balancing, and Amazon CloudFront (CDN) to deliver ultra-low latency and 99.999% availability during traffic surges. |
+
+---
+
+## 💡 Architectural Summary & Recommendations
+
+* **Choose AWS if:** Your priority is maximum service selection, global reach, proven reliability under high-volume traffic, or building scalable cloud-native web and mobile applications from scratch.
+* **Choose Azure if:** Your business heavily relies on existing Microsoft enterprise software, requires strong hybrid-cloud capabilities, or wants to optimize infrastructure costs via existing Windows/SQL licenses.
+* **Choose GCP if:** Your applications center on data engineering, real-time analytics, machine learning model training, or heavily containerized microservices managed via Kubernetes.

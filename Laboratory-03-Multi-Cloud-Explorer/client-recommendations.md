@@ -1,5 +1,8 @@
 # Checkpoint 4: Cloud Platform Recommendation Challenge
 
+## CloudNova Technologies has received requests from four clients.
+
+## Analyze each scenario and recommend the most appropriate cloud platform.
 
 ## Client A – Startup Company
 

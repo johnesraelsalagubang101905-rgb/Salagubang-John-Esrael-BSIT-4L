@@ -33,4 +33,4 @@ Transfer the system directly into an Infrastructure-as-a-Service (IaaS) virtual 
 
 ### 2. Modernization Alternatives
 * **Serverless Containers:** If hosting a microservice, web server, or script, containerize the application using Docker and deploy to serverless platforms (**AWS Fargate**, **Azure Container Apps**, or **Google Cloud Run**) to eliminate OS-level maintenance.
-* **Lightweight VPS Hosting:** For simple, flat-rate hosting without enterprise VPC complexity, use **AWS Lightsail**, which offers identical 1 vCPU / 2 GB RAM Linux bundles for ~$10/month.
+* **Lightweight VPS Hosting:** For simple, flat-rate hosting without enterprise VPC complexity, use **AWS Lightsail**, which offers identical 1 vCPU / 2 GB RAM Linux bundles for ~$10/month. 

@@ -1,4 +1,4 @@
-# ☁️ Cloud Platform Comparison: AWS vs. Azure vs. GCP
+# ☁️ Cloud Platform Comparison: AWS vs. Azure vs. GCP - Checkpoint 3 – Compare the Major Cloud Platforms
 
 A comprehensive breakdown comparing the "Big Three" cloud providers—Amazon Web Services, Microsoft Azure, and Google Cloud Platform.
 
@@ -31,3 +31,30 @@ A comprehensive breakdown comparing the "Big Three" cloud providers—Amazon Web
 
 ### 4. Which cloud platform would you personally choose and why?
 I would personally choose **AWS** due to its overwhelming market dominance and widespread industry adoption. Learning AWS opens up the broadest range of career opportunities, given that thousands of startups and Fortune 500 enterprises build their backends on its infrastructure. Furthermore, AWS offers an unmatched library of documentation, active community forums, and a generous free tier, making it the most practical platform for building, scaling, and deploying modern applications.
+
+
+
+
+# ☁️ Cloud Service Equivalency Matrix  - Checkpoint 5 – Match the Cloud Services
+
+A quick-reference architectural mapping of core infrastructure services across Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).
+
+---
+
+## 📊 Core Service Mapping
+
+| Service Category | 🟧 Amazon Web Services (AWS) | 🟦 Microsoft Azure | 🟥 Google Cloud Platform (GCP) | Key Architectural Purpose |
+| :--- | :--- | :--- | :--- | :--- |
+| **Virtual Machine** | **Amazon EC2** *(Elastic Compute Cloud)* | **Azure Virtual Machines** | **Compute Engine** | Provision on-demand, customizable virtual server instances running Linux or Windows operating systems. |
+| **Object Storage** | **Amazon S3** *(Simple Storage Service)* | **Azure Blob Storage** | **Cloud Storage** | Massively scalable, highly durable storage for unstructured data, media files, static hosting, and backups. |
+| **Identity Management** | **AWS IAM** *(Identity & Access Management)* | **Microsoft Entra ID** *(formerly Azure AD)* | **Cloud IAM** | Centralized access management, role-based control (RBAC), and authentication policy enforcement. |
+| **SQL Database** | **Amazon RDS** *(Relational Database Service)* | **Azure SQL Database** | **Cloud SQL** | Fully managed relational database services supporting engines like PostgreSQL, MySQL, and SQL Server. |
+| **Kubernetes** | **Amazon EKS** *(Elastic Kubernetes Service)* | **Azure AKS** *(Azure Kubernetes Service)* | **GKE** *(Google Kubernetes Engine)* | Managed container orchestration engines for automating deployment, scaling, and operation of application containers. |
+
+---
+
+## 💡 Provider Architectural Highlights
+
+* **🟧 Amazon Web Services (AWS):** Offers the most granular configuration options, deepest instance-type variety (e.g., custom Graviton ARM chips), and mature, battle-tested IAM permission boundaries.
+* **🟦 Microsoft Azure:** Provides unmatched hybrid-identity integration out of the box via Microsoft Entra ID and native cost optimizations for legacy SQL Server and Windows Server workloads.
+* **🟥 Google Cloud Platform (GCP):** Features the gold standard in Kubernetes management (GKE) since Google originally authored the technology, paired with ultra-fast private global networking and seamless live migration for VMs.
